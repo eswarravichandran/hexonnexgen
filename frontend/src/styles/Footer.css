@@ -1,0 +1,9 @@
+.footer {
+    line-height: 5vh;
+}
+.footer h5 {
+    text-align: center;
+}
+.footer h5 a {
+    text-decoration: none;
+}

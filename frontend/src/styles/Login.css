@@ -1,0 +1,59 @@
+.login {
+    min-height: 80vh;
+    width: 100%;
+}
+.login-card {
+    width: 50%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+.login-card div {
+    width: 90%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login-card div h2 {
+    color: rgb(0, 174, 174);
+    text-align: center;
+    text-decoration: underline;
+}
+.login-form, .login-form div {
+    margin: 1% auto;
+}
+.login-form, .login-form div {
+    display: flex;
+    flex-direction: column;
+}
+.login-form div {
+    display: flex;
+    flex-direction: column;
+}
+.login-form div label {
+    padding: 5px 0px;
+}
+.login-form div input {
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.login-form div button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 174, 174);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-form div a {
+    text-decoration: none;
+    color: rgb(0, 174, 174);
+    margin: 5px 0px;
+    text-align: center;
+}
+.login-form div a:hover {
+    text-decoration: underline;
+}
