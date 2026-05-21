@@ -1,12 +1,15 @@
 .login {
     min-height: 80vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login-card {
     width: 50%;
-    margin: 2% auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .login-card div {
     width: 90%;
@@ -48,12 +51,28 @@
     font-weight: bold;
     cursor: pointer;
 }
-.login-form div a {
+.login-form div h4 {
     text-decoration: none;
     color: rgb(0, 174, 174);
-    margin: 5px 0px;
+    margin: 10px 0px;
     text-align: center;
+    cursor: pointer;
 }
-.login-form div a:hover {
+.login-form div h4:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    .login-card {
+        width: 95%;
+    }
+    .login-card div {
+        width: 95%;
+    }
 }
